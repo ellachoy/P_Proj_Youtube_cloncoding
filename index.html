@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Mobile</title>
+ <style></style>
     <script src="https://kit.fontawesome.com/14883d2ece.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,18 +23,16 @@
     </header>
     <!-- video player -->
     <section class="player"> 
-      <video controls autoplay width="250" >
-          <source src="https://www.youtube.com/embed/rhPSo4_Tgi0" title="YouTube video player" >
-      </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rhPSo4_Tgi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <!-- video info box -->
     <section class= "info">
         <div class="metadata">
             <ul class="hashtags">
-                <li>#Frontend</li>
-                <li>#HTML</li>
-                <li>#CSS(SASS)</li>
-                <li>#Javascript</li>
+                <li>#clonCoding</li>
+                <li>#Youtube</li>
+                <li>#Linkedin</li>
+                <li>#Facebook</li>
             </ul>
             <div class="titleAndButton">
                 <span>
@@ -41,21 +40,38 @@
                 <button class="moreBtn">
                     <i class="fas fa-caret-down"></i>
                 </button>  
-
                 </span>
             </div>
-            <div class="views"></div>
+            <div class="views">
+                <span class="views"> 1M views</span>
+            </div>
         </div>
-        <div class="action"></div>
-        <div class="channel"></div>
+        <div class="action">
+            <li><button><i class="fas fa-thumbs-up"></i><span>1K</span>
+            </button></li>
+            <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+            <li><button><i class="fas fa-share"></i><span>Teilen</span></button></li>
+            <li><button><i class="fas fa-plus"></i><span>Speichern</span></button></li>
+            <li><button><i class="fab fa-font-awesome-flag"></i><span>Melden</span></button></li>
+        </div>
+        <div class="channel">
+            <div class="metadata">
+                <img src="/img/img1.jpeg" alt="">
+                <div class="info">
+                    <span>cloncoding by coding</span>
+                </div>
+            </div>
+            <button class="abbo">Abonnieren</button>
+        </div>
     </section>
-    <section class="UpNext"></section>
+    <section class="UpNext">
+        <span>Mehr Ansehen </span>
+        <ul>
+            <li class="item"> <iframe width="560" height="315" src="https://www.youtube.com/embed/rhPSo4_Tgi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            <li class="item"> <iframe width="560" height="315" src="https://www.youtube.com/embed/rhPSo4_Tgi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            <li class="item"> <iframe width="560" height="315" src="https://www.youtube.com/embed/rhPSo4_Tgi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        </ul>
+    </section>
 </body>
-<!-- 
 
-fas fa-thumbs-up
-fas fa-thumbs-down
-fas fa-share
-fas fa-plus
-fab fa-font-awesome-flag -->
 </html>
