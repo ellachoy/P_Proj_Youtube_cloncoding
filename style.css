@@ -7,12 +7,49 @@
  --grey-dark-color:#909090;
  --gray-light-color:#e0e0e0;
     /* Size */
- --side-padding:12px;
+ --padding:12px;
  --avatar-size:36px;
     /* Font Size */
  --font-large:18px;
  --font-medium:14px;
  --font-small:12px;
  --font-micro:10px;
-
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+}
+/* Header */
+header{
+    display:flex;
+    justify-content: space-between;
+    padding:var(--padding);
+    background-color:var(--black-color);
+    color:var(--white-color);
+}
+header .logo{
+    font-size:var(--font-large);
+}
+header .logo i{
+    color:var(--red-color);
+}
+header .icons .fa-search{
+ /* margin-right:var(--padding); */
+ padding-right:var(--padding);
+}
+/* video player  */
+.player{
+    text-align:center;
+    background-color:var(--black-color);
+    /* height:40vh; */
+   
+}
+.player iframe{
+    width:100%;
+    height:100%;
+    max-width: 1000px;
 }
