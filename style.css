@@ -57,7 +57,7 @@ header .icons .fa-search{
     text-align:center;
     background-color:var(--black-color);
     /* height:40vh; */
-    margin-bottom: var(--padding);
+    /* margin-bottom: var(--padding); */
    
 }
 .player iframe{
@@ -73,16 +73,14 @@ header .icons .fa-search{
     display:flex;
     font-size:var(--font-small);
     color:var(--blue-color);
-
 }
-
-.hashtags li{
+.info .metadata .hashtags li{
     margin-right:var(--padding);
 }
-/*
 .titleAndButton{
     display:flex;
 }
+/*
 .titleAndButton span{
     font-weight: 600;
 }
