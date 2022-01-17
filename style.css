@@ -51,6 +51,8 @@ header .icons .fa-search{
 }
 /* video player  */
 .player{
+    position:sticky;
+    top:0;
     text-align:center;
     background-color:var(--black-color);
     /* height:40vh; */
@@ -62,7 +64,11 @@ header .icons .fa-search{
     height:100%;
     max-width: 1000px;
 }
-.info .metadata .hashtags{
+/* info */
+.info{
+
+}
+/* .info .metadata .hashtags{
     display:flex;
     color:var(--blue-color);
 
@@ -85,6 +91,13 @@ header .icons .fa-search{
     justify-content:space-around;
 }
 .channel{
+    border-top: solid 1px  rgb(223, 216, 216);
+    border-bottom: solid 1px  rgb(223, 216, 216);
     display:flex;
     justify-content:space-between;
 }
+.metadata img{
+    padding:var(--padding);
+    font-size:var(--avatar-size);
+  
+} */
