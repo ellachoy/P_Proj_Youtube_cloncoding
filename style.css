@@ -26,10 +26,11 @@ body{
 li{
     list-style: none;
 }
+/*
 button{
    background:none;
     border: none;
-}
+} */
 
 /* Header */
 header{
@@ -66,16 +67,19 @@ header .icons .fa-search{
 }
 /* info */
 .info{
-
+ padding:var(--padding);
 }
-/* .info .metadata .hashtags{
+ .info .metadata .hashtags{
     display:flex;
+    font-size:var(--font-small);
     color:var(--blue-color);
 
 }
+
 .hashtags li{
     margin-right:var(--padding);
 }
+/*
 .titleAndButton{
     display:flex;
 }
