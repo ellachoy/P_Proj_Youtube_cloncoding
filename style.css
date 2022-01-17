@@ -23,6 +23,13 @@
 body{
     font-family: Roboto;
 }
+li{
+    list-style: none;
+}
+button{
+   background:none;
+    border: none;
+}
 
 /* Header */
 header{
@@ -47,6 +54,7 @@ header .icons .fa-search{
     text-align:center;
     background-color:var(--black-color);
     /* height:40vh; */
+    margin-bottom: var(--padding);
    
 }
 .player iframe{
@@ -60,5 +68,23 @@ header .icons .fa-search{
 
 }
 .hashtags li{
-    margin:var(--padding);
+    margin-right:var(--padding);
+}
+.titleAndButton{
+    display:flex;
+}
+.titleAndButton span{
+    font-weight: 600;
+}
+.views{
+    font-size:var(--font-medium);
+    margin-bottom: var(--padding);
+}
+.actions{
+    display:flex;
+    justify-content:space-around;
+}
+.channel{
+    display:flex;
+    justify-content:space-between;
 }
