@@ -117,39 +117,45 @@ header .icons .fa-search{
     color: var(--grey-dark-color);
   
 }
-.actions button i{
+.info .actions button i{
     margin: 0 auto;
     /* margin-bottom:var(--padding); */
     margin-bottom: calc(var(--padding)/2);
     font-size:16px;
 }
-.actions button i.active{
+.info .actions button i.active{
     color:var(--blue-color);
 }
 /* Channel Description */
-.channel{
+.info .channel{
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     border-top: solid 1px  rgb(223, 216, 216);
     border-bottom: solid 1px  rgb(223, 216, 216);
-    padding:var(--padding) 0;
+    /* padding:var(--padding) 0; */
    
 }
-.channel .metadata {
+.info .channel .metadata {
   display:flex;
+  align-items: center;
 
 } 
-.channel .metadata img{
+.info .channel .metadata img{
     width:var(--avatar-size);
-    /* height:var(--avatar-size); */
+    height:var(--avatar-size);
     border-radius:50%;
 }
-.channel .metadata .info{
+.info .channel .metadata .info{
     display:flex;
     flex-direction:column;
 }
-.channel .metadata .info .subscribers{
-    font-size:var(--font-micro);
+.info .channel .metadata .info .subscribers{
+    font-size:var(--font-small);
     color:var(--grey-dark-color);
+}
+.info .channel .subscribe{
+    text-transform:uppercase;
+    font-size:var(--font-medium);
+    color:var(--red-color);
 }
