@@ -83,7 +83,7 @@ header .icons .fa-search{
 .info .metadata .titleAndButton{
     display:flex;
 }
-
+/* zeile Umbruch 2 od. 3 */
 .info .metadata .titleAndButton .title{
   font-size: var(--font-medium);
   display: -webkit-box;
@@ -96,15 +96,23 @@ header .icons .fa-search{
 .info .metadata .titleAndButton .moreBtn{
     height:100%;
 }
-/*
-.views{
-    font-size:var(--font-medium);
-    margin-bottom: var(--padding);
+
+.info .views{
+    font-size:var(--font-small);
+    color:var(--grey-dark-color);
+    
 }
+
 .actions{
     display:flex;
     justify-content:space-around;
 }
+.info .actions button{
+
+    display:flex;
+    flex-direction:column;
+}
+/*
 .channel{
     border-top: solid 1px  rgb(223, 216, 216);
     border-bottom: solid 1px  rgb(223, 216, 216);
