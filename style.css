@@ -26,11 +26,14 @@ body{
 li{
     list-style: none;
 }
-/*
-button{
-   background:none;
+
+button,
+button:focus{
+ 
     border: none;
-} */
+    cursor: pointer;
+    outline: none;
+}
 
 /* Header */
 header{
@@ -77,13 +80,23 @@ header .icons .fa-search{
 .info .metadata .hashtags li{
     margin-right:var(--padding);
 }
-.titleAndButton{
+.info .metadata .titleAndButton{
     display:flex;
 }
-/*
-.titleAndButton span{
-    font-weight: 600;
+
+.info .metadata .titleAndButton .title{
+  font-size: var(--font-medium);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-right: var(--padding);
+
 }
+.info .metadata .titleAndButton .moreBtn{
+    height:100%;
+}
+/*
 .views{
     font-size:var(--font-medium);
     margin-bottom: var(--padding);
