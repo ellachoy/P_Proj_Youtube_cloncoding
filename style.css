@@ -60,7 +60,7 @@ header .icons .fa-search{
     top:0;
     text-align:center;
     background-color:var(--black-color);
-    /* height:40vh; */
+   
     /* margin-bottom: var(--padding); */
    
 }
@@ -74,7 +74,7 @@ header .icons .fa-search{
 .info{
  padding:var(--padding);
 }
- .info .metadata .hashtags{
+.info .metadata .hashtags{
     display:flex;
     font-size:var(--font-small);
     color:var(--blue-color);
